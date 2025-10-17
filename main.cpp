@@ -7,6 +7,7 @@ int main()
 {
     Cat myCat = new Cat("Toast");
     myCat.meow();
+    myCat.meow();
 
     return 0;
 }
