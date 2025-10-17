@@ -18,7 +18,7 @@ void meow()
     cout << name << " meowed!" << endl;
 }
 
-void meow()
+void feed()
 {
     cout << "You have fed " + name + "!" << endl;
 }
