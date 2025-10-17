@@ -15,7 +15,7 @@ string getName()
 
 void meow()
 {
-    cout << name << " meowed!" << endl;
+    cout << name << " meowed and purred!" << endl;
 }
 
 void feed()
