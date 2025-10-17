@@ -4,12 +4,21 @@
 using namespace std;
 
 Cat(string name)
-    : name(name) {}
+{
+    this->name = name;
+}
 
-string getName() const {
+string getName()
+{
     return name;
 }
 
-void meow() const {
+void meow()
+{
     cout << name << " meowed!" << endl;
+}
+
+void meow()
+{
+    cout << "You have fed " + name + "!" << endl;
 }

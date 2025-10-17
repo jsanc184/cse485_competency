@@ -15,6 +15,8 @@ public:
     string getName();
 
     void meow();
+
+    void feed();
 };
 
 #endif
