@@ -20,5 +20,5 @@ void meow()
 
 void feed()
 {
-    cout << name + " gets fed!" << endl;
+    cout << name + " eats!" << endl;
 }
